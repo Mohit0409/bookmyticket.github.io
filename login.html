@@ -16,7 +16,7 @@ session_start();
       
 	  email<input type="text" name="email" required><br><br><br>
 	  
-	  password<input type="text" name="password" id = "pass"	required><br><br><br>
+	  password<input type="password" name="password" id = "pass"	required><br><br><br>
 	  
 	  
      <input  type="submit" name = "check">
@@ -53,7 +53,7 @@ session_start();
 	exit();
 	}
 	else{
-		echo "password incorrgggect";
+		echo "password incorrect";
 	}
 		
 		
@@ -69,6 +69,9 @@ session_start();
 
 
 ?>
-
+ <center>
+ <p>new user<a href="insert.php"><b>sign up Here</b></a></p>
+ <p>login to business account<a href="buslogin.php"><b>LogIn Here</b></a></p>
+ </center>
 </body>
 </html>
