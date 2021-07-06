@@ -1,0 +1,212 @@
+body
+{
+background-image: url("photo-1526772662000-3f88f10405ff.jpg");
+height:50%;
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+}
+ul.index
+{
+margin:0px;
+padding:0px;
+}
+ul.index li{
+  background-color:black;
+  height:40px;
+  width:180px;
+  line-height:40px;
+  float:left;
+  border:5px solid white;
+  float:left;
+ text-align: center;
+}
+ul.index li a{
+   text-decoration:none;
+   display:block;
+   color:white;
+
+}
+ul.index li a:hover
+{
+background-color: blue;
+}
+
+
+ul.index li ul li
+{
+display:none;
+}
+ul.index li:hover ul li
+{
+display: block;
+}
+
+
+
+
+
+
+
+.moh tr th
+{
+color : yellow;
+}
+
+ul.nomame li a
+{
+display : block;
+color:white;
+text-decorattion: none;
+}
+ul.nomame li
+{
+background-color:black;
+  height:40px;
+  width:100px;
+  line-height:40px;
+  float:left;
+  border:5px solid white;
+  float:left;
+ text-align: center;
+display:none;
+}
+.moh tr th:hover ul.nomame li
+{
+display:block;
+}
+
+
+
+
+
+ul.nomam li a
+{
+display : block;
+color:white;
+text-decorattion: none;
+}
+.moh tr th ul.nomame li ul.nomam li
+{
+height:30px;
+width:40px;
+display : none;
+}
+.moh tr th ul.nomame li:hover ul.nomam li
+{
+display:block;
+
+}
+
+
+
+
+ul.nom li a
+{
+display : block;
+color:white;
+text-decorattion: none;
+}
+.moh tr th ul.nomame li ul.nom li
+{
+height:30px;
+width:120px;
+display : none;
+}
+.moh tr th ul.nomame li:hover ul.noma li
+{
+display:block;
+}
+
+
+
+
+
+ul.nom li a
+{
+display : block;
+color:white;
+text-decorattion: none;
+}
+.moh tr th ul.nomame li ul.noma li
+{
+height:30px;
+width:40px;
+display : none;
+}
+.moh tr th ul.nomame li:hover ul.nom li
+{
+display:block;
+}
+
+
+
+
+
+
+
+
+p.tic
+{
+font-weight:bold;
+font-size:large;
+color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul#myul li a
+{
+display : block;
+color:white;
+text-decoration:none;
+}
+#myul li
+{
+
+  height:30px;
+  width:60px;
+  line-height:40px;
+  text-align: center;
+  display:none;
+}
+
+.moh tr th:hover ul#myul li
+{
+display:block;
+}
+
+
+
+.myst tr th
+{
+color : yellow;
+}
+
+
+
+
+submit
+ {
+background-color: red;
+cursor: pointer;
+}
+
+
+
+
+
+.mainn tr {
+	cursor: pointer;
+}
+
+
+

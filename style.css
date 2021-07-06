@@ -1,0 +1,10 @@
+.boxed{
+	border: 1px solid green;
+	width: 400px;
+    background-image: url("photo-1526772662000-3f88f10405ff.jpg");
+height:50%;
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+height: 450px;
+}
